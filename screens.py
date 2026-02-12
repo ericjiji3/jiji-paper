@@ -10,7 +10,7 @@ def lock_screen(width, height):
     font_big = ImageFont.truetype("assets/Vanosky-Bold.otf", 48)
     font_small = ImageFont.truetype("assets/Acidic.ttf", 20)
 
-    draw.text((20, 40), "AI Tablet", font=font_big, fill=0)
+    draw.text((20, 40), "FUCK BOSS BABY MARCOS SHUT THE FUCK UP", font=font_big, fill=0)
     draw.text((20, 110), time.strftime("%H:%M:%S"), font=font_big, fill=0)
     draw.text((20, 200), "Press button to unlock", font=font_small, fill=0)
 
