@@ -1,6 +1,6 @@
 # screens.py
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 import time
 from picamera2 import Picamera2
 import numpy as np

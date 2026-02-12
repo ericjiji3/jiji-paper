@@ -5,7 +5,8 @@ import screens
 import time
 
 def main():
-     try:
+    display = Display()
+    try:
         # --- Lock screen ---
         image = screens.lock_screen(display.width, display.height)
         display.show_fast(image)
