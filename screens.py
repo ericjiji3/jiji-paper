@@ -7,8 +7,8 @@ def lock_screen(width, height):
     image = Image.new("1", (width, height), 255)
     draw = ImageDraw.Draw(image)
 
-    font_big = ImageFont.truetype("assets/IntraNet_Outline.otf", 48)
-    font_small = ImageFont.truetype("assets/IntraNet_Outline.otf", 20)
+    font_big = ImageFont.truetype("assets/Vanosky-Bold.otf", 48)
+    font_small = ImageFont.truetype("assets/Acidic.ttf", 20)
 
     draw.text((20, 40), "AI Tablet", font=font_big, fill=0)
     draw.text((20, 110), time.strftime("%H:%M:%S"), font=font_big, fill=0)
@@ -21,7 +21,7 @@ def status_screen(width, height):
     image = Image.new("1", (width, height), 255)
     draw = ImageDraw.Draw(image)
 
-    font = ImageFont.truetype("assets/IntraNet_Outline.otf", 28)
+    font = ImageFont.truetype("assets/Vanosky-Bold.otf", 28)
 
     draw.text((20, 40), "System Status", font=font, fill=0)
     draw.text((20, 90), "WiFi: Connected", font=font, fill=0)
