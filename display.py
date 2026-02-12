@@ -8,6 +8,8 @@ if os.path.exists(libdir):
 
 from waveshare_epd import epd4in2_V2
 from PIL import Image
+from picamera2 import Picamera2
+import numpy as np
 
 class Display:
     def __init__(self):
